@@ -1,9 +1,22 @@
 {
-    "name": "Desafio Pwa",
-    "short_name": "Desafio Pwa",
+    "name": "desafio-pwa",
+    "short_name": "desafio-pwa",
+    "icons": [
+        {
+            "src": "img/aaa.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "img/aa.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
     "lang": "pt-BR",
     "start_url": "/index.html",
     "display": "standalone",
-    "backgournd_color": "white",
+    "background_color": "white",
     "theme_color": "white"
 }
